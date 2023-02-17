@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: row;
+}
+.wrapper > div {
+  width: 600px;
+  height: 600px;
+ 
+}
+
+.box-1 
+{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative; 
+  overflow: hidden;
+  margin: 0 auto;  
+  margin-top: 70px; 
+  border: 5px solid white;
+  border-radius: 15%;
+}
+
+.box-1 > .bg 
+{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 15%;
+  background-image: url('./img/background-center.jpg');
+  background-size: cover;
+  filter: blur(3px);
+}
+
+.top-layer 
+{
+  top: 0px;
+  position: absolute;
+}
+.bottom-layer {
+  position: absolute;
+  top: 379px;
+}
+
+.angle-1
+{
+  height: 350px;
+  width: 350px;
+  transform: translate(-62%, -45%);
+  rotate: 130deg;
+  position: absolute;
+}
+.angle-2
+{
+  height: 350px;
+  width: 350px;
+  transform: translate(-130%, 240%);
+  rotate: -120deg;
+  position: absolute;
+}
+.angle-3
+{
+  height: 350px;
+  width: 350px;
+  transform: translate(120%, 75%);
+  rotate: 30deg;
+  position: absolute;
+}
+
+.angle-4
+{
+  height: 350px;
+  width: 350px;
+  transform: translate(180%, 250%);
+  rotate: -30deg;
+  position: absolute;
+}
+
+.pz-1
+{
+  height: 250px;
+  width: 250px;
+  transform: translate(105%, -26%);
+}
+
+.pz-2
+{
+  height: 250px;
+  width: 250px;
+  transform: translate(83%, -50%);
+}
+
+.pz-3
+{
+  height: 224px;
+  width: 250px;
+  transform: translate(7%, 28%);
+}
+
+.pz-4
+{
+  height: 228px;
+  width: 250px;
+  transform: translate(-174%, 54%);
+}

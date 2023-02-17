@@ -1,0 +1,7 @@
+ adaptate to:
+    /*! @media screen and (min-width: 320px) {} */ /*not good*/
+    /*? @media screen and (min-width: 3057px) {} */
+    /*? @media screen and (min-width: 1920px) {} */ /*bigger sizes*/
+
+create burger menu
+

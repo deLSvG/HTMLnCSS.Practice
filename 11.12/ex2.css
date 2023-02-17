@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(41, 41, 41); */
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.wrapper 
+{
+    display: flex;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+}
+.wrapper_menu 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 70px;
+    height: 100vh;
+    /* padding-left: 10px; */
+    
+    background-color: darkgray;
+
+    position: fixed;
+
+    transition: all 0.3s linear;
+}
+.wrapper_menu:hover {
+    width: 240px;
+}
+.menu > p 
+{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.icons {
+}
+.edit {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left: -10px; */
+}
+.edit > img
+{
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.edit > p {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.edit:hover {
+    background-color: gray;
+}
+.heart {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left: -10px; */
+}
+.heart > img
+{
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.heart > p {
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    color: aliceblue;
+    opacity: 0;
+}
+.heart:hover {
+    background-color: gray;
+}
+.heart > p:hover {
+    opacity: 1;
+}
+
+.clock {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left: -10px; */
+}
+.clock > img
+{
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.clock > p {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.clock:hover {
+    background-color: gray;
+}
+.shield {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left: -10px; */
+}
+.shield > img
+{
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.shield > p {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.shield:hover {
+    background-color: gray;
+}
+.sliders {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left: -10px; */
+}
+.sliders > img
+{
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.sliders > p {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.sliders:hover {
+    background-color: gray;
+}
+
+
+.text {
+    width: 80%;
+    margin-left: 200px;
+}
+.text > p {
+    /* color: white; */
+}
